@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'iatec-audio-player';
+  url = '../assets/media/we-live-we-love-we-lie.mp3';
 }

@@ -1,6 +1,6 @@
 {
   "name": "iatec-audio-player",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -18,8 +18,12 @@
     "@angular/platform-browser": "^16.2.0",
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
+    "@fortawesome/angular-fontawesome": "^0.13.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "wavesurfer.js": "^7.3.4",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
@@ -33,6 +37,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^16.2.0",
     "typescript": "~5.1.3"
   }
 }

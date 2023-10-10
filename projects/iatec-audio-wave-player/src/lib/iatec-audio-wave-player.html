@@ -1,0 +1,26 @@
+<div class="container-iatec-player">
+  <div class="container-player">
+    <div class="header-tools">
+      <fa-icon
+        class="play"
+        [icon]="faPlayCircle"
+        (click)="play()"
+        *ngIf="isPlaying === false"
+        >!</fa-icon
+      >
+      <fa-icon
+        class="pause"
+        [icon]="faPauseCircle"
+        *ngIf="isPlaying === true"
+        (click)="pause()"
+      >
+        @
+      </fa-icon>
+    </div>
+    <div class="player" [id]="uid"></div>
+    <div class="timer">{{getTimeFormated()}}</div>
+  </div>
+  <div class="footer-tools" *ngIf="showRate">
+    <button class="speed" (click)="speed()">{{this.actualSpeed}}x</button>
+  </div>
+</div>
